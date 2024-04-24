@@ -1,0 +1,236 @@
+/*
+Theme Name: BRUCE.
+
+  1. >>> Nav Style
+  2. >>> Headr Style
+  3. >>> Banner Style
+  4. >>> About Style
+  5. >>> Work Style
+  6. >>> Blog Style
+  7. >>> Footer Style
+
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------*/
+html {font-family: 'Inter', sans-serif;background-color:#FFF}
+body {font-family: 'Inter', sans-serif;overflow-x: hidden; background-color:#FFF; font-weight:400;font-style: normal; color:#000; font-size:14px}
+a,a:hover,a:focus,i,input,button,input:focus,.transition {text-decoration: none;outline: none;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease;box-shadow: none;}
+a{color: #000}
+iframe {border: 0;outline: none;}
+::-moz-selection {background:#000;text-shadow: none;color:#FFF}
+::selection {background:#000;text-shadow: none;color:#FFF}
+img {max-width: 100%;border: none;outline: none;height: auto;}
+input,textarea {border-radius: 0;resize: none;}
+ul {padding: 0;margin: 0;}
+@font-face {
+font-family: 'Inter', sans-serif;}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {background-color: transparent;background-image: none;color:#000;}
+/* 1.2 Typography */
+h1,h2,h3,h4,h5,h6 {font-family: 'Inter', sans-serif;}
+figure{ margin: 0 }
+svg,img { max-width: 100%; height: auto; }
+/*-----------------------------------------------------------------
+  1. >>> Headr Style
+----------------------------------------------------------------*/
+.ds-header{ position: fixed; width: 100%; top: 0; left: 0; padding-top: 20px; padding-bottom: 20px; z-index: 10;transition-delay: 0s;transition-duration: 0.7s;transition-property: all;transition-timing-function: ease; }
+.ds-header.ds-fixed-header{box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30); background-color: rgba(255, 255, 255, 0.5);transition-delay: 0s;transition-duration: 0.7s;transition-property: all;transition-timing-function: ease; }
+
+
+.ds-header.ds-header-home{ position: static; }
+.ds-header.ds-header-home.ds-fixed-header{ box-shadow: none; background-color: transparent; }
+
+.ds-logo{ display: inline-block; text-transform: uppercase; font-size: 24px; font-weight: 700; color: #000; position: relative;z-index: 2; }
+.ds-logo span{ color:#FF575E; }
+.ds-logo:hover{ color: #000; }
+
+.ds-header-inner{ display: flex; justify-content: space-between; align-items: center; position: relative; z-index: 1; }
+.ds-back-button{ display: inline-block; font-weight: 600; font-size: 14px; }
+.ds-back-button i{ display: inline-block; vertical-align: middle; }
+.ds-back-button:hover{ color:#FF575E ; }
+
+/*-----------------------------------------------------------------
+  2. >>> Banner Style
+----------------------------------------------------------------*/
+.ds-banner{ margin-top: -76px; }
+.ds-banner figure img{ max-width: 100%; width: 100%; }
+.ds-banner-sec{ padding-left: 0; }
+.ds-banner h1{ font-weight: 700; font-size: 40px; line-height: 60px; margin-bottom: 14px; }
+.ds-banner p{ font-size: 20px; line-height: 30px; color: #707278; margin-bottom: 22px;width: 80%; }
+.ds_more_button{ font-size: 16px; font-weight: 600; color: #000; }
+.ds_more_button:hover{ color: #FF575E; }
+.ds_more_button i{ display: inline-block; vertical-align: middle; color: #FF575E; }
+/*-----------------------------------------------------------------
+  3. >>> Features Style
+----------------------------------------------------------------*/
+.ds-features{ padding-top: 80px; }
+.ds-heading{ font-size: 16px; line-height: 20px; letter-spacing: 2.67px; font-weight: 700; text-transform: uppercase; position: relative;margin-bottom: 26px; }
+.ds-heading-broder:before{ content: ""; background-color: #FF575E; width: 30px; height: 3px; display: inline-block; vertical-align: middle; margin-right: 20px; }
+.ds-features p{ color: #707278; font-size: 16px; line-height: 30px;width: 60%;}
+.ds-features-loges{ list-style: none; padding: 0; margin: 0 -15px; display: flex; flex-wrap: wrap;align-items: center; }
+.ds-features-loges li{ width: 33.33%; padding: 0 15px; margin-bottom: 70px; }
+.ds-features-loges li figure{ width: 160px; }
+/*-----------------------------------------------------------------
+ 4. >>> About Style
+----------------------------------------------------------------*/
+.ds-about{ padding-top: 126px; padding-bottom:80px; }
+.ds-about section{ padding-bottom: 80px; }
+.ds-about section p{color:rgba(0,0,0,0.7); font-size: 16px; line-height: 30px; margin-bottom:26px ;}
+.ds-about section p strong{ font-weight: 500; font-size: 20px; line-height: 36px; color: #000; }
+.ds-about section p:last-child{ margin-bottom: 0; }
+
+.ds-book-section{ background-color: #ECF6FE; border-radius: 5px; padding: 40px; display: flex; flex-wrap: wrap; align-items: center; }
+.ds-book-section figure{ width: 170px; }
+.ds-book-content{ width:60%; padding-left: 30px; }
+.ds-book-section h2{ font-size: 20px; line-height: 30px; font-weight: 600; margin-bottom: 24px; }
+.ds-downloade-button{ display: inline-block; color: #FFF; font-size: 16px; font-weight: 600; padding: 20px 38px; background-color: #FF575E; border-radius: 5px; }
+.ds-downloade-button:hover{ background-color: #000; color: #FFF; }
+/*-----------------------------------------------------------------
+ 5. >>> Investment Style
+----------------------------------------------------------------*/
+.ds-investment{ padding-bottom: 80px; }
+.ds-investment section{ padding-bottom: 80px; }
+.ds-investment section p{color:rgba(0,0,0,0.7); font-size: 16px; line-height: 30px; margin-bottom:26px ;}
+.ds-investment section p strong{ font-weight: 500; font-size: 20px; line-height: 36px; color: #000; }
+.ds-investment section p:last-child{ margin-bottom: 0; }
+
+.ds-investment-loop{ margin-bottom: 60px; }
+.ds-investment-loop figure{ width: 150px; margin-bottom: 30px; }
+.ds-investment-loop h3{ font-size: 18px; line-height: 21px; font-weight: 600; margin-bottom: 15px; }
+.ds-investment-loop p{ color: #707278; font-size: 16px; line-height: 30px; }
+/*-----------------------------------------------------------------
+ 6. >>> Blog Style
+----------------------------------------------------------------*/
+.ds-main-section-inner{ padding: 80px 0; }
+
+
+.ds-blog{ padding-bottom: 80px; }
+.ds-blog section{ padding-bottom: 30px; }
+.ds-blog section p{color:rgba(0,0,0,0.7); font-size: 16px; line-height: 30px; margin-bottom:26px ;}
+.ds-blog section p strong{ font-weight: 500; font-size: 20px; line-height: 36px; color: #000; }
+.ds-blog section p:last-child{ margin-bottom: 0; }
+
+
+.ds-blog-button{ text-align: right; padding-bottom: 30px; }
+.ds-blog-button .ds-more-button{ display: inline-block; font-size: 18px; font-weight: 500; color: #000; }
+.ds-blog-button .ds-more-button:hover{color:#FF575E;}
+.ds-blog-button .ds-more-button i{ display: inline-block; vertical-align: middle; }
+
+
+.ds-blog-sec-hed .ds-heading{ margin-bottom: 15px; }
+.ds-blog-sec-hed span{ display: block; font-weight: 500; font-size: 16px; }
+.ds-blog-loop{transition-delay: 0s;transition-duration: 0.6s;transition-property: all;transition-timing-function: ease;}
+.ds-blog-loop-sec{ background-color: #FFF;transition-delay: 0s;transition-duration: 0.6s;transition-property: all;transition-timing-function: ease;transform: translateY(0px); }
+.ds-blog-loop:hover .ds-blog-loop-sec{transform: translateY(-10px);}
+.ds-blog-loop-sec section{ padding:30px 0; }
+.ds-blog-loop-sec h2{font-size: 18px; line-height: 26px; margin-bottom: 0;}
+.ds-blog-loop-sec h2 a{  color: #000; }
+.ds-blog-loop-sec h2 a:hover{  color:#FF575E; }
+.ds-blog-loop:hover h2 a{  color:#FF575E; }
+.ds-post-date{ display:block; text-transform: uppercase; color: rgba(0,0,0,0.7); font-size: 12px; letter-spacing: 2px; margin-bottom: 15px; }
+.ds-blog-section-listing .ds-blog-loop{ margin-bottom: 60px; }
+
+.ds-blog-sec-hed { padding-bottom: 60px; }
+.ds-blog-sec-hed .ds-brands.da-blog-details{ margin-bottom: 13px; display: block; }
+.ds-blog-tags{ font-size: 16px; }
+
+.ds-blog-tags strong{ display: block; font-weight: 700; margin-bottom: 10px; }
+.ds-blog-tags  span{ display: inline-block; }
+.ds-blog-image img{ display: inline-block; }
+.ds-blog-det-content-sec{ padding: 80px 0; }
+.ds-blog-det-content-sec p{ font-size: 18px; line-height: 30px; margin-bottom: 30px; }
+.ds-blog-det-content-sec p:last-child{ margin-bottom: 0; }
+.ds-blog-det-content-sec h2{ font-size: 30px; margin-bottom: 18px; }
+.ds-blog-det-content-sec ol{ list-style: inside; padding: 0; margin: 0; }
+.ds-blog-det-content-sec ul{ list-style: none; padding: 0; margin: 0; }
+.ds-blog-det-content-sec ul  li,.ds-blog-det-content-sec ol li{font-size: 18px; line-height: 30px; position: relative; padding-left: 20px; margin-bottom:30px;}
+.ds-blog-det-content-sec ul  li:before{ content: ""; position: absolute; left: 0; width: 8px; height: 8px; background-color: #000; border-radius: 100%; top: 12px; }
+.ds-blog-det-content-sec ol li{ padding-left: 0; }
+
+.ds-sub-hed{ font-size: 24px; font-weight: 600; }
+.ds-comments-lists{ list-style: none; padding: 0; margin: 0; margin-top: 60px; margin-bottom:60px; }
+.ds-comments-lists li{ border-bottom: 1px solid #DDDCDC; display: flex; justify-content: space-between; flex-wrap: wrap; padding-bottom: 30px; margin-bottom: 40px; }
+.ds-comments-image{ width: 70px; height: 70px; border-radius: 100%; overflow: hidden; }
+.ds-comments-cont-section{ width:89%; }
+.ds-com-hed-sec{ display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 25px; }
+.ds-com-name{ display:block; font-weight: 600; font-size: 18px; padding-bottom: 5px; }
+.ds-com-date{ font-size: 14px; font-weight: 500; }
+.ds-comments-cont-section p{ color: #333333; font-size: 16px; line-height: 28px; }
+.ds-reply:hover{ color: #000; }
+.ds-comments-lists li ul{  margin-top: 30px;  }
+.ds-comments-lists li ul li{ padding-top: 40px; margin-bottom: 0; border-bottom: none;border-top: 1px solid #DDDCDC; padding-bottom: 0; padding-left: 70px; }
+.form-control{ border-radius: 0; border-left: none; border-right: none; border-top: none; border-color: #000; color: #000; font-size: 16px; padding-left: 0; padding: 13px 0; padding-right: 13px; margin-bottom: 30px; outline: none; box-shadow: none; }
+.form-control:focus{outline: none; box-shadow: none;}
+textarea.form-control{ height: 110px; }
+.ds-comment-button{ display: inline-block; border-radius: 0; border: none; outline: none; background-color: #000; border-radius: 3px; color: #FFF; font-size: 16px; padding: 8px 23px; }
+.ds-comment-button:hover{ background-color:#FF575E; color: #FFF; }
+
+/*-----------------------------------------------------------------
+  7. >>> Footer Style
+----------------------------------------------------------------*/
+.ds-footer{ background-color:#FFF; padding: 120px 0; padding-top: 60px; text-align: center;  }
+.ds-footer strong{ font-size: 16px; line-height: 20px; font-weight: 600; color: #000;display: block; padding-bottom: 20px; }
+.ds-social{ list-style: none; padding: 0; margin: 0 -10px; flex-wrap: wrap; display:flex; align-items: center; justify-content:center; }
+.ds-social li{ padding: 0 10px; }
+.ds-social li a{ color: #000; font-size:24px; }
+.ds-social li a:hover{ color: #FF575E; }
+.ds-copyright{ color: #2B2B2B; font-size: 16px;display: block; margin-top: 40px; }
+/*-------------------------------------------------------------------------------
+ Responsive XS Style @media (max-width: 767px) 
+-------------------------------------------------------------------------------*/
+@media (max-width: 768px) {
+  
+  .ds-banne-image-cont{ order: 2; }
+	.ds-banne-image{ order: 1; }
+  .ds-banner-sec{ padding-left: 12px; }
+  .ds-banner-sec section{ padding:40px 20px }
+  .ds-banner h1{ font-size: 30px; line-height: 40px; }
+  .ds-banner p,.ds-features p,.ds-about section p,.ds-blog-det-content-sec p,.ds-blog-det-content-sec ul li, .ds-blog-det-content-sec ol li,.ds-comments-cont-section p{ width: 100%; font-size: 15px; }
+  .ds-features{ padding-top: 0; }
+  .ds-features-loges-section{ padding-top:20px; }
+  .ds-about{ padding-top: 20px; padding-bottom: 40px; }
+  .ds-about section p strong,.ds-investment section p strong,.ds-blog section p strong{ font-size: 18px; line-height: 22px; }
+  .ds-about section,.ds-investment section,.ds-blog{ padding-bottom: 40px; }
+  .ds-book-section{ text-align: center; padding: 25px;}
+  .ds-book-content{ width: 100%; margin: 0; padding-left: 0; padding-top: 30px; }
+  .ds-book-section figure{ display: inline-block; margin: 0 auto; }
+  .ds-features-loges li{ width: 50%; margin-bottom: 40px; }
+  .ds-heading{ margin-bottom: 10px; }
+  .ds-investment-loop{ margin-bottom: 30px; }
+  .ds-investment{ padding-bottom: 10px; }
+  .ds-footer{ padding: 40px 0; }
+  .ds-home-section{ overflow-x: hidden; }
+  .ds-main-section-inner,.ds-blog-det-content-sec{ padding: 40px 0; }
+  .ds-blog-det-content-sec h2{ font-size: 24px; }
+  .ds-comments-lists li ul li{ padding-left: 20px; }
+  .ds-comments-image{ margin-bottom: 30px; }
+  .ds-comments-lists{ margin: 30px 0; }
+  .ds-blog-sec-hed{ padding-bottom: 30px; }
+  .ds-blog-section-listing .ds-blog-loop{ margin-bottom: 30px; }
+  .ds-features-loges li figure{ width: 110px; }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .ds-banne-image-cont{ order: 1; }
+  .ds-banne-image{ order: 2; }
+  .ds-banner-sec section{ padding: 0; padding-top: 40px; }
+  .ds-features {padding-top: 40px;}
+  .ds-blog-loop-sec h2{ font-size: 14px; }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .ds-home-section{ overflow-x: hidden; }
+  .ds-banner-sec{ width: 89%; }
+  .ds-features-loges li figure{ width: 120px; }
+	.ds-main-section{ overflow-x: hidden; }
+	.ds-comments-cont-section {width: 79%;}
+}
+@media (min-width: 1200px) and (max-width: 1500px) {
+.ds-banner-sec{ width: 88%; }
+}
+@media (min-width: 1600px) and (max-width: 1700px) {
+.ds-banner-sec{ width:79%; }
+}
