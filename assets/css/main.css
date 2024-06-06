@@ -50,7 +50,7 @@ svg,img { max-width: 100%; height: auto; }
   2. >>> Banner Style
 ----------------------------------------------------------------*/
 .ds-banner section{ padding-left: 70px; padding-right: 100px; }
-.ds-banner section h1 span{ display: block; text-transform: uppercase; letter-spacing: 1px;  font-weight: 500; font-size: 16px; padding-bottom: 30px; }
+.ds-banner section h1 span{ display: block; text-transform: uppercase; letter-spacing: 1px;  font-weight: 100; font-size: 26px; padding-bottom: 30px; }
 .ds-banner section h1{ font-weight: 600; font-size: 26px; line-height: 60px; color: #000; }
 .ds-numbervalulist{ list-style: none; display: flex; align-items: center; flex-wrap: wrap; margin: 0; padding: 0; margin-top: 60px; }
 .ds-numbervalulist li{ margin-right: 60px; }
@@ -60,7 +60,7 @@ svg,img { max-width: 100%; height: auto; }
 /*-----------------------------------------------------------------
   3. >>> About Style
 ----------------------------------------------------------------*/
-.ds-about-section{ padding-top: 60px; padding-bottom: 120px; }
+.ds-about-section{ padding-top: 60px; padding-bottom: 20px; }
 .ds-heading{ display: inline-block; font-weight: 700; color: #000; text-transform: uppercase; letter-spacing: 1px; font-size: 16px; border-bottom: 3px solid #F26464; padding-bottom: 7px; margin-bottom: 23px; }
 .ds-about-section p{ color: #373737; font-size: 24px; line-height: 40px; font-weight: 300; margin-bottom: 60px; }
 
@@ -93,7 +93,7 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
   6. >>> Work Style
 ----------------------------------------------------------------*/
 .ds-work-section{ padding-bottom: 80px; }
-.ds-work-list{ padding-left: 70px; padding-top:40px; padding-right: 70px; background-color:#F6F8FA; margin-bottom: 40px; }
+.ds-work-list{ padding-left: 60px; padding-top:40px; padding-bottom: 40px; padding-right: 40px; background-color:#F6F8FA; margin-bottom: 40px; }
 .ds-work-list section{ padding-top: 20px; padding-right: 120px; }
 .ds-work-tilte{ color: #000; font-size: 30px; line-height: 36px; font-weight: 600; margin-bottom: 30px; }
 .ds-work-list p{ font-weight: 300; font-size: 18px; line-height: 30px; }
@@ -168,4 +168,7 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 	.ds-work-list section{ padding-right: 30px; padding-bottom:60px; }
 
 
+}
+.nowrap {
+    white-space: nowrap;
 }
